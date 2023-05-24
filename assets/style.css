@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #FFC3A0;
+    --secondary-color: #B8E1FF;
+    --accent-color: #FFD3B6;
+    --background-color: #F6F2E6; 
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 20px;
+    text-align: left;
+}
+
+#navigation {
+    float: right;
+}
+  
+#photo-me {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+   
+}
+
+a {
+    color: var(--secondary-color);
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color:#94407b;
+}
