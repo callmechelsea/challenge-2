@@ -22,9 +22,7 @@
     width: 200px;
     border-radius: 100px;
     float: left;
-   
 }
-
 a {
     color: var(--secondary-color);
 }
@@ -33,4 +31,10 @@ a:hover {
 }
 a:visited {
     color:#94407b;
+}
+.hero-section {
+    background-image: #hero-photo
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
